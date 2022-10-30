@@ -23,7 +23,7 @@ export function SubNavItem(props) {
       <div className="dropdown-menu" id="dropdown-menu4" role="menu">
         <div className="dropdown-content">
           <div className="dropdown-item">
-            <p>Not implemented because this is a tutorial</p>
+            <p>Not needed for proof of concept.</p>
           </div>
         </div>
       </div>
