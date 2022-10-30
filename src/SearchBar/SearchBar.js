@@ -18,7 +18,7 @@ export function SearchBar(props) {
         <form onSubmit={submit}>
             <div className="field has-addons">
                 <p className="control">
-                    <button className={`button is-static ${sizeClass}`}>Search</button>
+                    <a href = "/results" className={`button is-static ${sizeClass}`}>SEARCH</a>
                 </p>
                 <p className="control">
                     <input className={`input ${sizeClass} ${styles['input-control']}`}
@@ -36,7 +36,7 @@ export function SearchBar(props) {
                            onChange={(e) => setLocation(e.target.value)}
                            type="text"
                            value={location}
-                           placeholder="Where"/>
+                           placeholder="Pleasanton, CA"/>
                 </p>
                 <div className={`button ${sizeClass} ${styles['search-button']}`} onClick={submit}>
                     <span className={`icon is-small ${styles['search-icon']}`}><i className="fas fa-search"></i></span>

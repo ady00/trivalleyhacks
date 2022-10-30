@@ -7,3 +7,8 @@
     flex-direction: column;
     align-items: center;
 }
+.article-container {
+    -webkit-columns: 2; /* Chrome, Safari, Opera */
+    -moz-columns: 2; /* Firefox */
+    columns: 2;
+  }

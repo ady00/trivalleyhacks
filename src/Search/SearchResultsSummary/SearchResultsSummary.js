@@ -29,7 +29,7 @@ export function SearchResultsSummary(props) {
                 </button>
                 <button className="button">
                     <span className="icon"><i className="fas fa-dollar-sign"></i></span>
-                    <span>Cashback</span>
+                    <span>Near Me</span>
                 </button>
             </div>
         </div>

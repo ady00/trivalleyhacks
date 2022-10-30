@@ -7,9 +7,9 @@ export function SubNav() {
         <div className={styles.container}>
             <div className={styles['sub-nav']}>
                 <div>
-                    <SubNavItem label='Restaurant' icon='fa-utensils'/>
-                    <SubNavItem label='Home Services' icon='fa-home'/>
-                    <SubNavItem label='Auto Services' icon='fa-car-side'/>
+                    <SubNavItem label='Local Restaurant Businesses' icon='fa-utensils'/>
+                    <SubNavItem label='Local Home Services' icon='fa-home'/>
+                    <SubNavItem label='Local Auto Services' icon='fa-car-side'/>
                     <SubNavItem label='More' icon='fa-info-circle' showRightBorder/>
                 </div>
                 <div>
